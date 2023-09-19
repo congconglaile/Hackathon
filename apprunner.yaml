@@ -5,4 +5,4 @@ build:
     build:
       - mvn clean package
 run:                              
-  command: java -Xms256m -jar target/Hackathon-1.0-SNAPSHOT.jar .
+  command: java -Xms256m -jar target/Hackathon-1.0.jar .
