@@ -6,3 +6,5 @@ build:
       - mvn clean package
 run:                              
   command: java -Xms256m -jar target/Hackathon-1.0.jar .
+  network:
+    port: 80
